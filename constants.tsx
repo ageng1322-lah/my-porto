@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { 
-  Brain, 
-  Code2, 
-  Workflow, 
-  Layout, 
-  ShieldCheck, 
-  Rocket, 
+import {
+  Brain,
+  Code2,
+  Workflow,
+  Layout,
+  ShieldCheck,
+  Rocket,
   Layers,
   Sparkles
 } from 'lucide-react';
@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     tags: ["n8n", "API Integration", "LLM Integration"],
     liveLink: "#",
     githubLink: "https://github.com/ageng1322-lah/n8n-automations/tree/256663bcd6d39715ed1c308d4b59e02746a555d0",
-    image: "photo/Screenshot 2026-01-15 154751.png"
+    image: "/my-porto/photo/Screenshot 2026-01-15 154751.png"
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
     tags: ["Flutter", "API Integration", "LLM Integration"],
     liveLink: "#",
     githubLink: "https://github.com/ageng1322-lah/AI-content-generator/tree/7050a22d3742a51c53dbee4115dce9f9151e524c",
-    image: "photo/Screenshot 2026-02-15 083213.png"
+    image: "/my-porto/photo/Screenshot 2026-02-15 083213.png"
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const PROJECTS: Project[] = [
     tags: ["React", "Next.js", "SaaS"],
     liveLink: "#",
     githubLink: "https://github.com/ageng1322-lah/online-class-Saas.git",
-    image: "photo/Screenshot 2026-02-15 094020.png"
+    image: "/my-porto/photo/Screenshot 2026-02-15 094020.png"
   },
   {
     id: 4,
@@ -79,7 +79,7 @@ export const PROJECTS: Project[] = [
     tags: ["Python", "Machine Learning", "Data Science"],
     liveLink: "https://colab.research.google.com/drive/1IirOn8ewhab7_O-j5dLkxny-S-g4IXqT?usp=sharing",
     githubLink: "https://colab.research.google.com/drive/1IirOn8ewhab7_O-j5dLkxny-S-g4IXqT?usp=sharing",
-    image: "photo/Screenshot 2026-02-15 094513.png"
+    image: "/my-porto/photo/Screenshot 2026-02-15 094513.png"
   }
 ];
 

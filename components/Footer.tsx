@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           &copy; {new Date().getFullYear()} Ageng Lahsa Adiguna. All Rights Reserved.
         </div>
         <div className="flex items-center gap-8 text-xs font-mono text-slate-500 uppercase tracking-widest">
-          <a href="#" className="hover:text-cyan-400 transition-colors">Resume</a>
+          <a href="/my-porto/photo/Ageng_Lahsa_Adiguna_Professional_CV_EN.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">Resume</a>
           <a href="#" className="hover:text-cyan-400 transition-colors">Privacy</a>
           <a href="#" className="hover:text-cyan-400 transition-colors">Terms</a>
         </div>

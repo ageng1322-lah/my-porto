@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
         className="mb-6"
       >
-        <TextType 
+        <TextType
           text="Ageng Lahsa Adiguna"
           as="h1"
           className="text-5xl md:text-8xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500 pb-6"
@@ -65,16 +65,16 @@ const Hero: React.FC = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="flex flex-col sm:flex-row gap-4"
       >
-        <a 
-          href="#projects" 
+        <a
+          href="#projects"
           className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-200 bg-cyan-600 rounded-full hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-600"
         >
           View Projects
           <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </a>
-        
-        <a 
-          href="photo/Ageng_Lahsa_Adiguna_Professional_CV_EN.pdf" 
+
+        <a
+          href="/my-porto/photo/Ageng_Lahsa_Adiguna_Professional_CV_EN.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-8 py-4 font-bold text-slate-300 transition-all duration-200 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 hover:text-white"

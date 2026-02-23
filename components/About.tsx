@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 
 const About: React.FC = () => {
   return (
-    <motion.section 
-      id="about" 
+    <motion.section
+      id="about"
       className="scroll-mt-24"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -13,7 +13,7 @@ const About: React.FC = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -21,13 +21,13 @@ const About: React.FC = () => {
           className="lg:col-span-5 relative"
         >
           <div className="aspect-square relative overflow-hidden rounded-3xl group">
-             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 z-10 opacity-60 group-hover:opacity-40 transition-opacity"></div>
-             <img 
-               src="photo/WhatsApp Image 2026-02-15 at 14.28.46.jpeg" 
-               alt="Ageng Lahsa Adiguna" 
-               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-             />
-             <div className="absolute inset-0 border-[10px] border-tech-black opacity-50"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 z-10 opacity-60 group-hover:opacity-40 transition-opacity"></div>
+            <img
+              src="/my-porto/photo/WhatsApp Image 2026-02-15 at 14.28.46.jpeg"
+              alt="Ageng Lahsa Adiguna"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 border-[10px] border-tech-black opacity-50"></div>
           </div>
           {/* Experience Badge */}
           <div className="absolute -bottom-6 -right-6 glass p-6 rounded-2xl border-white/10 animate-bounce">
@@ -36,7 +36,7 @@ const About: React.FC = () => {
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: 40 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -44,11 +44,11 @@ const About: React.FC = () => {
           className="lg:col-span-7 space-y-6"
         >
           <div className="flex items-center gap-4 text-cyan-400 mb-2">
-             <div className="h-[1px] w-12 bg-cyan-400"></div>
-             <span className="text-xs font-mono uppercase tracking-[0.3em]">The Perspective</span>
+            <div className="h-[1px] w-12 bg-cyan-400"></div>
+            <span className="text-xs font-mono uppercase tracking-[0.3em]">The Perspective</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white">Building Intelligence from the Ground Up</h2>
-          
+
           <div className="space-y-4 text-slate-400 text-lg leading-relaxed">
             <p>
               I design and build intelligent digital systems powered by AI, automation, and decentralized technologies.
