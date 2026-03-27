@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
         </a>
 
         <a
-          href="/my-porto/photo/Ageng_Lahsa_Adiguna_Professional_CV_EN.pdf"
+          href="/photo/Ageng_Lahsa_Adiguna_Professional_CV_EN.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-8 py-4 font-bold text-slate-300 transition-all duration-200 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 hover:text-white"
