@@ -32,8 +32,8 @@ const Navbar: React.FC = () => {
           onClick={scrollToTop}
           className="text-xl font-bold tracking-tighter text-white font-mono group cursor-pointer"
         >
-          <span className="text-cyan-400 group-hover:text-cyan-300 transition-colors">ALA</span>
-          <span className="opacity-50">.adiguna</span>
+          <span className="text-cyan-400 group-hover:text-cyan-300 transition-colors">MUJAER</span>
+          <span className="opacity-50">.tech</span>
         </motion.div>
         
         <motion.div 
