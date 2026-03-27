@@ -23,7 +23,7 @@ const About: React.FC = () => {
           <div className="aspect-square relative overflow-hidden rounded-3xl group">
             <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 z-10 opacity-60 group-hover:opacity-40 transition-opacity"></div>
             <img
-              src="/my-porto/photo/WhatsApp Image 2026-02-15 at 14.28.46.jpeg"
+              src="/photo/WhatsApp Image 2026-02-15 at 14.28.46.jpeg"
               alt="Ageng Lahsa Adiguna"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
