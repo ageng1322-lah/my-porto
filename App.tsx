@@ -29,27 +29,9 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-tech-black selection:bg-cyan-500/30">
-      {/* Custom Cursor Effect */}
-      <motion.div
-        className="pointer-events-none fixed inset-0 z-50 hidden md:block"
-        animate={{
-          background: `radial-gradient(600px at ${mousePos.x}px ${mousePos.y}px, rgba(34, 211, 238, 0.05), transparent 80%)`
-        }}
-      />
-      
-      {/* Scroll Progress Bar */}
-      <motion.div 
-        className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-cyan-500 to-blue-600 z-[100] origin-left"
-        style={{ scaleX }}
-      />
-
-      {/* Background Grids & Blobs */}
-      <div className="fixed inset-0 z-0 pointer-events-none opacity-30">
-        <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
-      </div>
-
+    <div className="relative min-h-screen selection:bg-cyan-500/30">
       <NetworkBackground />
+      {/* Custom Cursor Effect */}
 
       <Navbar />
       

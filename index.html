@@ -45,20 +45,23 @@
         background-color: #020617;
         color: #f8fafc;
         cursor: default;
+        background-image: radial-gradient(circle at top right, rgba(29, 78, 216, 0.05), transparent 40%),
+                          radial-gradient(circle at bottom left, rgba(88, 28, 135, 0.05), transparent 40%);
       }
       ::selection {
-        background-color: rgba(34, 211, 238, 0.3);
+        background-color: rgba(234, 179, 8, 0.3);
         color: #fff;
       }
       .glass {
-        background: rgba(15, 23, 42, 0.4);
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.05);
+        background: rgba(2, 6, 23, 0.3);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.03);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       }
       .neon-border:hover {
-        border-color: rgba(34, 211, 238, 0.5);
-        box-shadow: 0 0 15px rgba(34, 211, 238, 0.2);
+        border-color: rgba(234, 179, 8, 0.5);
+        box-shadow: 0 0 15px rgba(234, 179, 8, 0.2);
       }
       /* Custom Scrollbar */
       ::-webkit-scrollbar {
@@ -83,7 +86,9 @@
     "framer-motion": "https://esm.sh/framer-motion@^12.34.0",
     "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
     "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
-    "gsap": "https://esm.sh/gsap@^3.12.5"
+    "gsap": "https://esm.sh/gsap@^3.12.5",
+    "three": "https://esm.sh/three@0.160.0",
+    "three/": "https://esm.sh/three@0.160.0/"
   }
 }
 </script>
